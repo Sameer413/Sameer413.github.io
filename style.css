@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Fira Code", monospace;
+}
+.Logo {
+  height: 3rem;
+  border: 2px dashed white;
+  border-radius: 50px;
+}
+
+.LogoBox {
+  display: flex;
+  align-items: center;
+}
+.LogoName {
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+}
+.ControlPannel {
+  background-color: rgb(0, 0, 0);
+  width: 15vw;
+  height: 100vh;
+}
+body {
+  /* overflow: hidden; */
+  display: flex;
+}
+.Content {
+  width: 85vw;
+  height: 100vh;
+  background-color: rgb(34, 30, 30);
+  overflow: scroll;
+}
+.head {
+  width: 85vw;
+  height: 3rem;
+  background-color: rgb(56, 52, 52);
+}
+.buttontext {
+  color: white;
+  padding: 0px 0 0 15px;
+  align-items: center;
+  display: flex;
+}
+.buttonimg {
+  height: 1.7rem;
+}
+.buttons {
+  margin: 15px;
+}
+.buttons ul {
+  list-style: none;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.buttons ul a li {
+  display: flex;
+  margin: 12px 0px;
+}
+.buttons ul a {
+  text-decoration: none;
+}
+.song{
+    padding: 15px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.songimg{
+    height: 12rem;
+    border-radius: 12px;
+}
+.songname{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.songdsc{
+    color: rgb(160, 158, 158);
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vh;
+}
+.song:hover{
+    background-color: rgb(61, 60, 59);
+}

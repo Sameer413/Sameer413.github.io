@@ -14,11 +14,13 @@
 .LogoBox {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 .LogoName {
   font-size: 2rem;
   color: white;
   font-weight: bolder;
+  margin: 0 8px;
 }
 .ControlPannel {
   background-color: rgb(0, 0, 0);
